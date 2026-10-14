@@ -5,4 +5,8 @@ public class Shapes {
         return length*length; // answer
     }
 
+    public double computeCircleArea(double radius){
+        return (3.14 * radius * radius);
+    }
+
 }
